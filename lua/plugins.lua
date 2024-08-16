@@ -149,6 +149,7 @@ require("lazy").setup({
         version = "*",
         config = function ()
             require("config.toggleterm-lazygit")
+            require("toggleterm").setup()
         end
     },
     -- Status bar
