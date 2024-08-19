@@ -27,7 +27,7 @@ vim.keymap.set('n', '<C-t>', ':Lcarbon<CR>', opts)
 -- Tabs
 vim.keymap.set('n', '<Tab>', ':BufferLineCycleNext<CR>', opts)
 vim.keymap.set('n', '<S-Tab>', ':BufferLineCyclePrev<CR>', opts)
-vim.keymap.set('n', '<leader>x', ':BufDel<CR>', opts)
+vim.keymap.set('n', '<Leader>x', ':BufDel<CR>', opts)
 
 -----------------
 -- Visual mode --
@@ -41,6 +41,6 @@ vim.keymap.set('v', '>', '>gv', opts)
 -- Terminal mode --
 -----------------
 
-vim.keymap.set('n', '<C-`>', ':ToggleTerm<CR>', opts)
+vim.keymap.set('n', '<Leader>t', ':ToggleTerm<CR>', opts)
 vim.keymap.set('t', '<Esc>', '<C-\\><C-N><CR>', opts)
 
